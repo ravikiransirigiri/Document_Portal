@@ -3,7 +3,7 @@
 # Create Project Folder and Environment Setup
 
 #create a new project folder
- mkdir <project_folder_name>
+    mkdir <project_folder_name>
 
 #move into the project folder
  cd <project_folder_name>
