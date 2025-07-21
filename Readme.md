@@ -2,23 +2,23 @@
 
 # Create Project Folder and Environment Setup
 
-#create a new project folder
+    # create a new project folder
 
-mkdir <project_folder_name>
+    mkdir <project_folder_name>
 
-#move into the project folder
+    # move into the project folder
+    
+    cd <project_folder_name>
+
+    # open the folder in vs code
  
-cd <project_folder_name>
+    code .
 
-#open the folder in vs code
+    # create a new conda environment with python=3.10 -y
+
+    # activate the new conda environment(use full path to the environment)
  
-code .
-
-#create a new conda environment with python=3.10 -y
-
-#activate the new conda environment(use full path to the environment)
- 
-conda actiavte <path_of_the_env>
+    conda actiavte <path_of_the_env>
 
 # Install the dependencies from requirements.txt
 pip install -r requirements.txt
